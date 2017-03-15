@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Cars4share Account Preferences" />
+    <PreferenceScreen
+        android:key="key1"
+        android:title="Key1"
+        android:summary="summary1">
+        <intent
+            android:action="key1.ACTION"
+            android:targetPackage="key1.package"
+            android:targetClass="key1.class" />
+    </PreferenceScreen>
+</PreferenceScreen>
