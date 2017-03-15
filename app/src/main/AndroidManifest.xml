@@ -23,7 +23,7 @@
         </activity>
 
         <service
-            android:name=".Cars4shareAccountAuthenticatorService"
+            android:name=".auth.Cars4shareAccountAuthenticatorService"
             android:enabled="true"
             android:exported="false">
             <intent-filter>
